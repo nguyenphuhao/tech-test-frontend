@@ -97,23 +97,3 @@
 .job-result__job-count{
   margin-top: 10px;
 }
-
-.job {
-  background-color: #E4EEF1;
-  margin: 1rem 0;
-  padding: 10px;
-  width: 45%;
-  max-width: 260px;
-  transition: background-color 0.25s
-}
-
-.job:hover{
-  background-color: #c3dce4;
-  cursor: pointer;
-}
-
-.job__job-time{
-  display: flex;
-  font-weight: 300;
-  justify-content: space-between;
-}

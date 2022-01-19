@@ -14,12 +14,14 @@
     "axios": "^0.21.1",
     "graphql": "^14.7.0",
     "graphql-tag": "^2.10.4",
+    "jest-environment-jsdom-sixteen": "^2.0.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "typescript": "^4.1.5"
+    "typescript": "^4.1.5",
+    "uuid": "^8.3.2"
   },
   "scripts": {
     "bootstrap": "yarn install && yarn server:bootstrap",
@@ -47,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.178"
+    "@types/lodash": "^4.14.178",
+    "@types/uuid": "^8.3.4"
   }
 }
