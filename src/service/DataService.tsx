@@ -13,13 +13,15 @@ const axiosClient = axios.create({
 
 export const DataService: IDataService = {
   getJobsWithSearchTerm: (searchTerm: string) => {
-    return graphClient.query<{ jobs: (Pick<Job, 'name' | 'start' | 'end'> & { contact: Contact })[] }>({
+    return graphClient.query<{ jobs: (Pick<Job, 'id' | 'name' | 'start' | 'end' | 'location'> & { contact: Contact })[] }>({
       query: gql`
       query ($searchTerm: String){
         jobs(name: $searchTerm) {
+          id,
           name,
           start,
           end,
+          location,
           contact {
             id
             name

@@ -1,0 +1,102 @@
+@media screen and (min-width: 0) {
+  .app__content-blank {
+    height: calc(100vh - 125.9px);
+  }
+  .question3 {
+    display: flex;
+    height: calc(100vh - 128px);
+    border: 1px solid #000;
+  }
+  .sidebar {
+    display: flex;
+    flex: 8;
+    background-color: #223048;
+    max-width: 100px;
+    width: 75px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main {
+    flex: 92;
+  }
+
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+
+    margin: 7px 0;
+  }
+
+  .icon-circle__bottom {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .header {
+    min-width: 100%;
+    background-color: #3d9bff;
+    height: 100px;
+  }
+  
+  .header__text{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 1rem;
+  }
+
+  .question3__rs {
+    display: flex;
+    flex: 0 0 100%;
+  }
+  .question3__rs__column {
+    height: calc(100vh - 228px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .question3__rs__resources {
+    display: flex;
+    flex: 25;
+    background-color: #e4eef1;
+    flex-direction: column;
+  }
+  .question3__rs__resources__jobgroup{
+    position: relative;
+  }
+  .question3__rs__resources__jobgroup__job{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem 1rem 0 1rem;
+  }
+  .question3__rs__resources__jobgroup__allocations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #3D9BFF;
+    border-radius: 50%;
+    color: #3D9BFF;
+    font-weight: bold;
+    z-index: 1;
+    right: 50px;
+    bottom: 15px;
+  }
+  .question3__rs__allocations {
+    flex: 70;
+    background-color: #fff;
+  }
+  .question3__rs__allocations__block {
+    width: 100%;
+    min-height: 150px;
+    margin: 10px;
+    background-color: #e4eef1;
+  }
+}
